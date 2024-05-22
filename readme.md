@@ -34,4 +34,4 @@ To run the script automatically at startup:
 ```sudo crontab -e```
 
 - Enter the line (making sure to edit the path to `launcher.sh` if necessary
-```@reboot sh /home/pi/Desktop/rpi_talktimer/launcher.sh
+```@reboot sh /home/pi/Desktop/rpi_talktimer/launcher.sh```

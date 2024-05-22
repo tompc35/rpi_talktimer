@@ -23,15 +23,18 @@ A push button is connected to 3v3 power and pin 10 (GPIO 15) with an inline pull
 
 ## Optional setup
 
-To run the script automatically at startup:
+### To run the script automatically at startup:
 
-- Make sure the path to this this directory is correct in `launcher.sh`. By default it is located at `/home/pi/Desktop/rpi_talktimer`
+Make sure the path to this this directory is correct in `launcher.sh`. By default it is located at `/home/pi/Desktop/rpi_talktimer`
 
-- Make `launcher.sh` executable with the command 
+Make `launcher.sh` executable with the command
+  
 ```chmod 755 launcher.sh```
 
-- Edit your crontab by typing
+Edit your crontab by typing
+  
 ```sudo crontab -e```
 
-- Enter the line (making sure to edit the path to `launcher.sh` if necessary
+Enter the line (making sure to edit the path to `launcher.sh` if necessary
+  
 ```@reboot sh /home/pi/Desktop/rpi_talktimer/launcher.sh```
